@@ -1,5 +1,5 @@
 import java.util.Scanner; // 导入键盘输入需要用到的包
-public class 弹窗问题解决 {
+public class 解决弹窗问题 {
     public static void main(String[] args) {
         int 起始 = 5; // 最开始的值
         System.out.println(起始);

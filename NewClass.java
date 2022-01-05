@@ -21,7 +21,7 @@ public class NewClass {
     public static void main(String[] args) {
         NewClass stu = new NewClass();// 创建一个对象
         stu.id = 1001;
-        stu.name = "文晋国";
+        stu.name = "国哥";
         stu.age = 18;
 
         Computer c1 = new Computer();
@@ -36,5 +36,3 @@ public class NewClass {
 class Computer{
     String brand;
 }
-
-
