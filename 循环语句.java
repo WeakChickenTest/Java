@@ -17,8 +17,8 @@ public class 循环语句 {
         }while(a<=200);//do……while与while的区别是do……while(条件)有分号;
 
         // for循环
-        for(int b = 10; b < 20; b = b+1) {
-            System.out.println("value of x : " + x );
+        for(int b = 1;b<a;b++){
+            System.out.println("这是for循环");
         }
     }
 }

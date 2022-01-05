@@ -15,7 +15,7 @@ public class Compound { // 复合语句
                 System.out.println(b);
             }
         }
-        String word = "Hello,Word!";
+        String word = "Hello,word!";
         System.out.println(word);
     }
 }
