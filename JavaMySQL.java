@@ -8,8 +8,8 @@ public class JavaMySQL {
     Connection con;
 
     public Connection getConnection() {
-        try {// try 和catch成对出现
-            Class.forName("com.mysql.jdbc.Driver");// "com.mysql.jdbc.Driver"加载mysql数据库的驱动包
+        try {// try和catch成对出现
+            Class.forName("com.mysql.jdbc.Driver");// "com.mysql.jdbc.Driver"加载MySQL数据库的驱动包
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
