@@ -1,6 +1,6 @@
 /**
  * @Author WenJinGuo
- * @reate 2020/12/29 21:19
+ * @create 2020/12/29 21:19
  */
 public class JiuJiuChengFaBiao {
     public static void main(String[] args) {

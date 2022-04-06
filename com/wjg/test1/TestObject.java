@@ -3,6 +3,8 @@ package com.wjg.test1;
 /**
  * @author WenJinGuo
  * @DateTime 2022/4/6 21:26
+ *
+ * Object的重写
  */
 public class TestObject {
     public static void main(String[] args) {
