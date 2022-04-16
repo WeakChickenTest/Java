@@ -36,5 +36,3 @@ public class NewClass {
 class Computer{
     String brand;
 }
-
-
