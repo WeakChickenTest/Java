@@ -19,11 +19,15 @@ public class OverLoadTest {
     }
 
     public static int add(int a,int b){// 与标准方法相比，参数的类型不同
-        return 1998;
+        return 1998+a-b;
     }
 
     public static double add(double a,int b){// 与标准方法相比，参数的顺序不同
         return a + b + 2021;
+    }
+
+    public static int add(int...a){//不定长参数
+         return a.length;
     }
 
     public static void main(String[] args) {
@@ -31,6 +35,7 @@ public class OverLoadTest {
         System.out.println("调用add(int a,int b)方法："+add(1,123));
         System.out.println("调用add(int a,double b)方法："+add(1,1.23));
         System.out.println("调用add(double a,int b)方法："+add(3.14,1));
+        System.out.println(add(1,2,3));
 
         BigInteger bigInteger = new BigInteger("4");// 实例化一个大数字
         System.out.println(bigInteger);

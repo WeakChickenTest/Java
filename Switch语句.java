@@ -6,7 +6,7 @@ public class Switch语句 {
                 System.out.println("今天是周一，要上班");
                 String kaka = "测试语句";
                 break;// 遇到break，就会跳出当前的switch语句，继续执行switch后边的语句
-            // 没有break，会把其他的case也执行了
+            // 没有break，会把其他的case也执行了，所以要有break来防止继续执行后边的case
             case 2:
                 System.out.println("今天是周二，要上班");
             case 3:
